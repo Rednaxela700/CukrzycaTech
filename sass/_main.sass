@@ -1,0 +1,28 @@
+@include rwd('desktop')
+    .hero
+        &__wrapper
+            min-height: calc(100vh - 120px)
+            max-width: 1440px
+            background-color: rgba(40, 99, 173, 0.91)
+        &__container
+            @include flex(space-around, center)
+            width: 100%
+            color: #fff
+
+        &__heading
+            @include fonts(Rubik, normal, bold, 112px, 112px)
+            text-transform: uppercase
+
+    .text
+        &__lightblue
+            color: #B7CBE7
+
+    .subheading
+        &__container
+
+        &__item
+            @include fonts(Rubik, normal, bold, 64px, 64px)
+
+        &__paragraph
+            @include fonts(Rubik, normal, normal, 24px, 36px)
+            text-transform: capitalize
