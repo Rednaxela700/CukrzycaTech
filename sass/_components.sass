@@ -1,0 +1,10 @@
+.btn
+    @include fonts('Rubik', normal, normal, 1rem, 19px)
+    @include flex(center, center)
+    @include size(auto, 56px)
+    background-color: $btnInactive_red
+    border-radius: 1em
+    color: #fff
+    &:hover
+        background-color: $btnActive_red
+        transition: background-color .3s ease-in-out

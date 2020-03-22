@@ -1,0 +1,40 @@
+@include rwd(desktop)
+    .header
+        @include pos(relative)
+        @include size(100vw, 120px)
+
+        &__wrapper
+            @include pos(absolute, 0, 0)
+            @include flex(normal, center)
+            @include size(100%, 100%)
+
+        &__container
+            @include flex(space-around, center)
+            max-width: 1440px
+            margin: 0 auto
+    .nav
+        &__wrapper
+            @include flex(center, center)
+
+        &__container
+            @include flex(center, center)
+            list-style: none
+            padding: 0
+            margin: 0
+
+        &__item
+
+        &__link
+            text-decoration: none
+
+        &__text
+            @include fonts(Rubik, normal, normal, 16px, 24px)
+            color: $text_black
+            padding: 10px 15px
+            &:hover
+                color: $nav_dark-blue
+
+        &__btn
+            @include size(263px, 56px)
+            & > .btn
+                @include size(222px, 56px)
