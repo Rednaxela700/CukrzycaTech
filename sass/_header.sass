@@ -4,14 +4,20 @@
         @include size(100vw, 120px)
 
         &__wrapper
-            @include pos(absolute, 0, 0)
+            @include pos(fixed, 0, 0)
             @include flex(normal, center)
             @include size(100%, 100%)
+            max-height: 120px
 
         &__container
             @include flex(space-around, center)
             max-width: 1440px
+            width: 100%
             margin: 0 auto
+    .logo
+        &__item
+            display: block
+            @include size(264px, 55px)
     .nav
         &__wrapper
             @include flex(center, center)
@@ -35,6 +41,8 @@
                 color: $nav_dark-blue
 
         &__btn
+            @include flex(center)
             @include size(263px, 56px)
             & > .btn
                 @include size(222px, 56px)
+                text-decoration: none
