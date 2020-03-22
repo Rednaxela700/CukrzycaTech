@@ -46,3 +46,9 @@
             & > .btn
                 @include size(222px, 56px)
                 text-decoration: none
+                &:hover .nav__btn--icon
+                    display: block
+            &--icon
+                display: none
+                transition: display .3s ease-in
+                margin: 0 0 0 15px

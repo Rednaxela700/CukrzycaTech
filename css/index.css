@@ -43,7 +43,7 @@
   }
 }
 .btn:hover {
-  background-color: #E34137;
+  background-color: #FF3A2E;
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -157,6 +157,14 @@
     width: 222px;
     height: 56px;
     text-decoration: none;
+  }
+  .nav__btn > .btn:hover .nav__btn--icon {
+    display: block;
+  }
+  .nav__btn--icon {
+    display: none;
+    transition: display 0.3s ease-in;
+    margin: 0 0 0 15px;
   }
 }
 
