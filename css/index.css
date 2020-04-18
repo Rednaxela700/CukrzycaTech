@@ -484,7 +484,7 @@
 @media only screen and (min-width: 1024px) {
   .speakers {
     max-width: 1664px;
-    margin: 0 auto;
+    margin: 0 auto 49px;
   }
   .speakers .section__title {
     margin: 123px 0 76px;
