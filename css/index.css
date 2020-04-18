@@ -605,5 +605,191 @@
     line-height: 24px !important;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .agenda {
+    margin: 0 auto 177px;
+  }
+  .agenda__container {
+    max-width: 1128px;
+    margin: 0 auto;
+  }
+  .agenda__container:first-child > .timetable__container {
+    border-radius: 0.5em;
+  }
+  .agenda__item {
+    width: 100%;
+  }
+  .agenda__item:first-of-type .timetable__container {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+  }
+  .agenda__item:last-of-type .timetable__container {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+  }
+  .agenda__item--active {
+    position: relative;
+    top: unset;
+    left: unset;
+    background-color: #F2F6FC;
+  }
+  .agenda__item--active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 1px;
+    display: block;
+    width: 5px;
+    height: 100%;
+    background-color: #B7CBE7;
+  }
+
+  .timetable__container {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 95px;
+    max-width: 840px;
+    background-color: #2863AD;
+    border-bottom: 1px solid #5C8AC8;
+    margin: 0 auto;
+  }
+  .timetable__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 120px;
+    height: 95px;
+  }
+  .timetable__img--active {
+    width: 56px;
+    height: 56px;
+  }
+  .timetable__item {
+    width: auto;
+    height: auto;
+    color: #fff;
+  }
+  .timetable__hour {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    color: #b7cbe7;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .timetable__hour {
+    font-size: 12.8px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .timetable__hour {
+    font-size: 12.8px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .timetable__hour {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .timetable__hour {
+    line-height: 15.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .timetable__hour {
+    line-height: 15.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 992px) {
+  .timetable__hour {
+    line-height: 19px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .timetable__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    margin: 3px 0 4px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .timetable__title {
+    font-size: 14.4px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .timetable__title {
+    font-size: 14.4px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .timetable__title {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .timetable__title {
+    line-height: 17.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .timetable__title {
+    line-height: 17.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 992px) {
+  .timetable__title {
+    line-height: 22px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .timetable__subtitle {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .timetable__subtitle {
+    font-size: 11.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .timetable__subtitle {
+    font-size: 11.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .timetable__subtitle {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .timetable__subtitle {
+    line-height: 13.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .timetable__subtitle {
+    line-height: 13.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 992px) {
+  .timetable__subtitle {
+    line-height: 17px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .timetable__subtitle a {
+    color: #101010;
+    text-decoration: none;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */
