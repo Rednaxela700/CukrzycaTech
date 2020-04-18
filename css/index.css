@@ -9,7 +9,7 @@
   width: auto;
   height: 56px;
   background-color: #E34137;
-  border-radius: 1em;
+  border-radius: 0.5em;
   color: #fff;
   cursor: pointer;
   text-decoration: none;
@@ -47,6 +47,52 @@
 .btn:hover {
   background-color: #FF3A2E;
   transition: background-color 0.3s ease-in-out;
+}
+.btn__blue {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: auto;
+  height: 56px;
+  background-color: #F2F6FC;
+  border-radius: 0.5em;
+  border: none;
+  color: #2863AD;
+  cursor: pointer;
+}
+@media only screen and (min-width: 319px) {
+  .btn__blue {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .btn__blue {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .btn__blue {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (min-width: 319px) {
+  .btn__blue {
+    line-height: 15.2px !important;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .btn__blue {
+    line-height: 15.2px !important;
+  }
+}
+@media all and (min-width: 992px) {
+  .btn__blue {
+    line-height: 19px !important;
+  }
 }
 
 .section__title {
@@ -789,6 +835,149 @@
   .timetable__subtitle a {
     color: #101010;
     text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .media {
+    margin: 0 auto 132px;
+  }
+  .media__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1416px;
+    margin: 0 auto;
+  }
+  .media__btn {
+    display: block;
+    min-width: 184px;
+    margin: 42px auto 0;
+  }
+
+  .post__content {
+    max-width: 456px;
+  }
+  .post__date {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    color: #101010;
+    opacity: 64%;
+    margin: 18px 0 7px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .post__date {
+    font-size: 11.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .post__date {
+    font-size: 11.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .post__date {
+    font-size: 14px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .post__date {
+    line-height: 13.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .post__date {
+    line-height: 13.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 992px) {
+  .post__date {
+    line-height: 17px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .post__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    color: #2863AD;
+    margin: 0 0 24px;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .post__title {
+    font-size: 14.4px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .post__title {
+    font-size: 14.4px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .post__title {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .post__title {
+    line-height: 17.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .post__title {
+    line-height: 17.6px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 992px) {
+  .post__title {
+    line-height: 22px !important;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .post__title a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .post__excerpt {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .post__excerpt {
+    font-size: 12.8px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .post__excerpt {
+    font-size: 12.8px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 1024px) {
+  .post__excerpt {
+    font-size: 16px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 319px) {
+  .post__excerpt {
+    line-height: 19.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 767px) {
+  .post__excerpt {
+    line-height: 19.2px !important;
+  }
+}
+@media only screen and (min-width: 1024px) and (min-width: 992px) {
+  .post__excerpt {
+    line-height: 24px !important;
   }
 }
 
