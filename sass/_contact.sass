@@ -38,12 +38,14 @@
         &__bg
             @include pos(absolute, 0, 0)
             @include size(100%, 100%)
-            background-image: url("../img/contact_bg.jpg")
+            background-image: url("https://via.placeholder.com/1920")
             background-repeat: no-repeat
             background-size: cover
             background-position: 0 -400px
             opacity: 32%
             z-index: -1
+            &.visible
+                background-image: url("../img/contact_bg.jpg")
 
         &__ellipse
             margin: 50px
